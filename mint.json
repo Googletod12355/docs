@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@matrixgaming.network"
     }
   ],
   "topbarCtaButton": {
@@ -27,25 +27,25 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "FAQ",
+      "url": "faq"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Discord Server",
+      "icon": "discord",
+      "url": "https://discord.gg/ptcEyxDgZz"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Client Dashboard",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://client.eclipseno.de/"
+    },
+    {
+      "name": "Server Dashboard",
+      "icon": "newspaper",
+      "url": "https://panel.eclipseno.de/"
     }
   ],
   "navigation": [
@@ -68,20 +68,6 @@
         "essentials/reusable-snippets"
       ]
     },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
