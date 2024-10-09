@@ -7,7 +7,7 @@
   },
   "favicon": "/media/favicon.png",
   "colors": {
-    "primary": "#dd023c",
+    "primary": "#12141C",
     "light": "#dd023c",
     "dark": "#dd023c",
     "anchors": {
@@ -60,6 +60,18 @@
       "group": "Server Dashboard",
       "pages": [
         "server/start"
+      ]
+    },
+    {
+      "group": "Minecraft",
+      "pages": [
+        "games/minecraft/start"
+      ]
+    },
+    {
+      "group": "Discord Bots ",
+      "pages": [
+        "bots/discord/start"
       ]
     },
     {
