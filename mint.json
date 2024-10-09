@@ -75,19 +75,19 @@
     {
       "group": "Server Panel",
       "pages": [
-        "server-panel/start/start"
+        "server-panel/start/home"
       ]
     },
     {
       "group": "Minecraft",
       "pages": [
-        "games/minecraft/start"
+        "games/minecraft/home"
       ]
     },
     {
       "group": "Discord Bots",
       "pages": [
-        "bots/discord/start"
+        "bots/discord/home"
       ]
     },
     {
