@@ -40,7 +40,7 @@
     },
     {
       "name": "Discord Bots",
-      "url": "bots/discord/start"
+      "url": "bots/discord"
     }
   ],
   "anchors": [
