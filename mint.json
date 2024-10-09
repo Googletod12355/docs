@@ -51,6 +51,18 @@
       ]
     },
     {
+      "group": "Client Dashboard",
+      "pages": [
+        "client/passwords"
+      ]
+    },
+    {
+      "group": "Server Dashboard",
+      "pages": [
+        "server/start"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
@@ -61,12 +73,6 @@
         "essentials/reusable-snippets",
         "essentials/development",
         "essentials/introduction"
-      ]
-    },
-    {
-      "group": "Client Dashboard",
-      "pages": [
-        "client/passwords"
       ]
     }
   ],
