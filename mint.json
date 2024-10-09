@@ -65,9 +65,15 @@
       ]
     },
     {
-      "group": "Server Dashboard",
+      "group": "Server Panel",
       "pages": [
-        "server/start"
+        "server-panel"
+      ]
+    },
+    {
+      "group": "Server Panel",
+      "pages": [
+        "server-panel/start"
       ]
     },
     {
