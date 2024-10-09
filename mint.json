@@ -29,6 +29,10 @@
     "name": "Our Website",
     "url": "https://eclipseno.de"
   },
+    "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
   "tabs": [
     {
       "name": "Minecraft",
