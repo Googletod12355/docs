@@ -25,7 +25,10 @@
       "url": "https://panel.eclipseno.de/"
     }
   ],
-  "topbarCtaButton": {},
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
   "tabs": [
     {
       "name": "FAQ",
