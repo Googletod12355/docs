@@ -45,6 +45,10 @@
     {
       "name": "Server Panel",
       "url": "server-panel/start"
+    },
+    {
+      "name": "Client Dashboard",
+      "url": "client-dashboard/start"
     }
   ],
   "anchors": [
@@ -58,14 +62,14 @@
     {
       "group": "Get Started",
       "pages": [
-        "welcome",
-        "faq"
+        "home/welcome",
+        "home/faq"
       ]
     },
     {
       "group": "Client Dashboard",
       "pages": [
-        "client/passwords"
+        "client-dashboard/start"
       ]
     },
     {
