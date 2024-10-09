@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "EclipseNode Wiki",
   "logo": {
-    "dark": "/logo/logo.png",
-    "light": "/logo/logo.png"
+    "dark": "/media/logo.png",
+    "light": "/media/logo.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/media/favicon.png",
   "colors": {
     "primary": "#dd023c",
     "light": "#dd023c",
@@ -26,8 +26,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Our Website",
+    "url": "https://eclipseno.de"
   },
   "tabs": [
     {
