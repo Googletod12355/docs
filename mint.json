@@ -41,6 +41,10 @@
     {
       "name": "Discord Bots",
       "url": "bots/discord"
+    },
+    {
+      "name": "Server Panel",
+      "url": "server-panel/start"
     }
   ],
   "anchors": [
@@ -62,12 +66,6 @@
       "group": "Client Dashboard",
       "pages": [
         "client/passwords"
-      ]
-    },
-    {
-      "group": "Server Panel",
-      "pages": [
-        "server-panel"
       ]
     },
     {
