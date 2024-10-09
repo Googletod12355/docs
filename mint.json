@@ -11,8 +11,8 @@
     "light": "#dd023c",
     "dark": "#dd023c",
     "anchors": {
-      "from": "#dd023c",
-      "to": "#dd023c"
+      "from": "#12141C",
+      "to": "#12141C"
     }
   },
   "topbarLinks": [
@@ -31,8 +31,8 @@
   },
   "tabs": [
     {
-      "name": "FAQ",
-      "url": "faq"
+      "name": "Minecrft",
+      "url": "games/minecraft"
     }
   ],
   "anchors": [
