@@ -71,7 +71,7 @@
     {
       "group": "Server Panel",
       "pages": [
-        "server-panel/start"
+        "server-panel/start/start"
       ]
     },
     {
