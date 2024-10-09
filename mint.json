@@ -62,6 +62,12 @@
         "essentials/development",
         "essentials/introduction"
       ]
+    },
+    {
+      "group": "Client Dashboard",
+      "pages": [
+        "client/passwords"
+      ]
     }
   ],
   "footerSocials": {
