@@ -17,8 +17,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:support@matrixgaming.network"
+      "name": "Client Dashboard",
+      "url": "https://client.eclipseno.de/"
+    },
+    {
+      "name": "Server Dashboard",
+      "url": "https://panel.eclipseno.de/"
     }
   ],
   "topbarCtaButton": {
@@ -36,16 +40,6 @@
       "name": "Discord Server",
       "icon": "discord",
       "url": "https://discord.gg/ptcEyxDgZz"
-    },
-    {
-      "name": "Client Dashboard",
-      "icon": "newspaper",
-      "url": "https://client.eclipseno.de/"
-    },
-    {
-      "name": "Server Dashboard",
-      "icon": "newspaper",
-      "url": "https://panel.eclipseno.de/"
     }
   ],
   "navigation": [
