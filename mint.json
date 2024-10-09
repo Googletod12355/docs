@@ -46,7 +46,8 @@
     {
       "group": "Get Started",
       "pages": [
-        "welcome"
+        "welcome",
+        "faq"
       ]
     },
     {
