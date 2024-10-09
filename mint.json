@@ -31,8 +31,12 @@
   },
   "tabs": [
     {
-      "name": "Minecrft",
+      "name": "Minecraft",
       "url": "games/minecraft"
+    },
+    {
+      "name": "Discord Bots",
+      "url": "bots/discord/start"
     }
   ],
   "anchors": [
@@ -69,7 +73,7 @@
       ]
     },
     {
-      "group": "Discord Bots ",
+      "group": "Discord Bots",
       "pages": [
         "bots/discord/start"
       ]
