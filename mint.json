@@ -46,9 +46,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
@@ -59,7 +57,9 @@
         "essentials/images",
         "essentials/settings",
         "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/reusable-snippets",
+        "essentials/development",
+        "essentials/introduction"
       ]
     }
   ],
