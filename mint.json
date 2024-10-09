@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "EclipseNode Wiki",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -11,8 +11,8 @@
     "light": "#dd023c",
     "dark": "#dd023c",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#dd023c",
+      "to": "#dd023c"
     }
   },
   "topbarLinks": [
@@ -70,8 +70,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/ptcEyxDgZz"
   }
 }
