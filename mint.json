@@ -83,7 +83,9 @@
     {
       "group": "Minecraft",
       "pages": [
-        "games/minecraft/home"
+        "games/minecraft/introduction",
+        "games/minecraft/server-icon",
+        "games/minecraft/updating"
       ]
     },
     {
