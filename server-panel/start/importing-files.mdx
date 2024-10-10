@@ -1,0 +1,39 @@
+---
+title: 'Importing Files'
+description: 'This is where you can learn how to import files into your server.'
+---
+
+
+## Web Upload
+
+<Note>
+  This method of upload is limited to **100MB**.
+</Note>
+
+To directly upload files to the panel, you can head to the **File Manager** tab, and drag-and-drop the files to the screen.
+
+## The following archive types are supported for upload:
+- .zip
+- .tar
+- .tar.gz
+- .tar.bz2
+- .7z
+
+
+## SFTP Upload
+
+<Note>
+  This method of upload does not have a size limitation.
+</Note>
+
+SFTP is a secure way to transfer files from your computer to the panel. This is a great way to upload your server’s files to the panel, and is the recommended way to upload your server’s files especially if the files are stored on your computer, or if the files are larger than 100MB.
+
+1. Download a SFTP client such as [WinSCP](https://winscp.net/eng/index.php) (recommended) or [FileZilla](https://filezilla-project.org/).
+2. Once installed, head to the **Settings** tab, and press the **Launch SFTP** button.
+3. You will be prompted with a window to enter your SFTP password, it will be the same password used to log in to the control panel.
+4. Locate the files/directories on your computer that you want to transfer, and drag-and-drop them into the window of your FTP client. This will upload the files to the panel and a rough ETA (estimated time of arrival) will be displayed normally at the bottom of the screen.
+The speed of the transfer may seem significantly low, however in most cases that is due to importing hundreds (sometimes even thousands!) of several smaller files rather than one big file.
+
+<Info>
+  To speed up the SFTP import, archive your files into any one of the supported archive types. Then, transfer that archive through SFTP and unarchive it on the panel directly.
+</Info>

@@ -75,7 +75,8 @@
     {
       "group": "Server Panel",
       "pages": [
-        "server-panel/start/home"
+        "server-panel/start/home",
+        "server-panel/start/importing-files"
       ]
     },
     {
