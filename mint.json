@@ -52,10 +52,6 @@
     {
       "name": "Client Dashboard",
       "url": "client-dashboard/start"
-    },
-    {
-      "name": "Gmod",
-      "url": "games/gmod"
     }
   ],
   "anchors": [
@@ -114,12 +110,6 @@
         "essentials/reusable-snippets",
         "essentials/development",
         "essentials/introduction"
-      ]
-    },
-    {
-      "group": "Gmod",
-      "pages": [
-        "games/gmod/introduction"
       ]
     }
   ],
