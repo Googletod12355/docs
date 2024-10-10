@@ -76,7 +76,9 @@
       "group": "Server Panel",
       "pages": [
         "server-panel/start/home",
-        "server-panel/start/importing-files"
+        "server-panel/start/overview",
+        "server-panel/start/importing-files",
+        "server-panel/start/sub-users"
       ]
     },
     {
