@@ -1,0 +1,28 @@
+---
+title: 'Updating Server'
+description: 'A guide to updating the server software on your Minecraft server (Paper, Spigot, Forge, etc).'
+---
+
+Updating your server software (Paper, Spigot, Forge, etc) is a very simple process. There are two ways to go about this.
+
+## Manual Update
+
+1. Download the latest version of the server software you are using from their respective websites:
+ - [PaperMC](https://papermc.io/downloads)
+ - [Spigot](https://www.spigotmc.org/wiki/buildtools/)
+ - [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
+2. Stop your server and create a backup, just in case the update fails.
+3. Delete the old server software JAR file (usually named **server.jar**, double-check your startup command to make sure).
+4. Place the new JAR file in the same directory as the old one. Ensure the name of the JAR is the same, if it has changed, make sure the startup command reflects the change.
+5. Start your server, and run **/version** or **/about** to ensure the server is running the new version.
+
+## Automatic Update
+1. Stop your server
+2. Create a backup, just in case the update fails.
+3. Head to the **Startup** tab and ensure the version is set to **Latest**.
+4. Click the Reinstall button. This button overwrites the **server.jar** file with the latest version of the server software you are using.
+5. Start your server, and run **/version** or **/about** to ensure the server is running the new version.
+
+<Note>
+  The automatic update system only upgrades your server version (e.g., from 1.20 to 1.21) without changing the server software (e.g., Paper to Forge). To switch server software, please perform a manual update or open a support ticket.
+</Note>
