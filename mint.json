@@ -15,13 +15,16 @@
       "to": "#12141C"
     }
   },
+  "primaryTab": {
+    "name": "Home"
+  },
   "topbarLinks": [
     {
       "name": "Client Dashboard",
       "url": "https://client.eclipseno.de/"
     },
     {
-      "name": "Server Dashboard",
+      "name": "Server Panel",
       "url": "https://panel.eclipseno.de/"
     }
   ],
