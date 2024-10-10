@@ -55,7 +55,7 @@
     },
     {
       "name": "Garry's Mod",
-      "url": "games/garrys-mod"
+      "url": "games/gmod"
     }
   ],
   "anchors": [
@@ -119,7 +119,7 @@
     {
       "group": "Garry's Mod",
       "pages": [
-        "games/garrys-mod/introduction"
+        "games/gmod/introduction"
       ]
     }
   ],
