@@ -51,7 +51,7 @@
     },
     {
       "name": "Dashboard's (Panel & Client)",
-      "url": "dashboard/"
+      "url": "dashboards/"
     }
   ],
   "anchors": [
@@ -72,15 +72,15 @@
     {
       "group": "Client Dashboard",
       "pages": [
-        "dashboard/client/home"
+        "dashboards/client/home"
       ]
     },
     {
       "group": "Server Panel",
       "pages": [
-        "dashboard/server/overview",
-        "dashboard/server/importing-files",
-        "dashboard/server/sub-users"
+        "dashboards/server/overview",
+        "dashboards/server/importing-files",
+        "dashboards/server/sub-users"
       ]
     },
     {
