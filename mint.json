@@ -59,16 +59,10 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Welcome to EclipseNode",
       "pages": [
-        "home/welcome",
+        "home/home",
         "home/faq"
-      ]
-    },
-    {
-      "group": "Free Dashboard",
-      "pages": [
-        "dashboards/free/home"
       ]
     },
     {
@@ -83,6 +77,12 @@
       "group": "Billing Portal",
       "pages": [
         "dashboards/billing/home"
+      ]
+    },
+    {
+      "group": "Free Dashboard",
+      "pages": [
+        "dashboards/free/home"
       ]
     },
     {
