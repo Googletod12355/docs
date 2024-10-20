@@ -22,10 +22,6 @@
     {
       "name": "Client Dashboard",
       "url": "https://client.eclipseno.de/"
-    },
-    {
-      "name": "Server Panel",
-      "url": "https://panel.eclipseno.de/"
     }
   ],
   "topbarCtaButton": {
@@ -59,6 +55,22 @@
     {
       "name": "Dashboard's (Panel, Free & Billing)",
       "url": "dashboards/"
+    },
+    {
+      "group": "Discord Bots",
+      "pages": [
+        "bots/discord/home"
+      ]
+    },
+    {
+      "name": "Server Panel",
+      "url": "https://panel.eclipseno.de/"
+    },
+    {
+      "group": "Minecraft",
+      "pages": [
+        "games/minecraft"
+      ]
     }
   ],
   "navigation": [
@@ -81,22 +93,6 @@
         "dashboards/server/overview",
         "dashboards/server/importing-files",
         "dashboards/server/sub-users"
-      ]
-    },
-    {
-      "group": "Minecraft",
-      "pages": [
-        "games/minecraft/introduction",
-        "games/minecraft/server-icon",
-        "games/minecraft/updating-jars",
-        "games/minecraft/joining",
-        "games/minecraft/changing-versions"
-      ]
-    },
-    {
-      "group": "Discord Bots",
-      "pages": [
-        "bots/discord/home"
       ]
     },
     {
