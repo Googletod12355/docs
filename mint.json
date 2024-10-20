@@ -62,7 +62,8 @@
       "group": "Welcome to EclipseNode",
       "pages": [
         "home/home",
-        "home/faq"
+        "home/faq",
+        "home/how-we-work"
       ]
     },
     {
