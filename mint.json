@@ -22,6 +22,10 @@
     {
       "name": "Client Dashboard",
       "url": "https://client.eclipseno.de/"
+    },  
+    {
+      "name": "Server Panel",
+      "url": "https://panel.eclipseno.de/"
     }
   ],
   "topbarCtaButton": {
@@ -57,20 +61,12 @@
       "url": "dashboards/"
     },
     {
-      "group": "Discord Bots",
-      "pages": [
-        "bots/discord/home"
-      ]
+      "name": "Discord Bots",
+      "url": "bots/discord/home"
     },
     {
-      "name": "Server Panel",
-      "url": "https://panel.eclipseno.de/"
-    },
-    {
-      "group": "Minecraft",
-      "pages": [
-        "games/minecraft"
-      ]
+      "name": "Minecraft",
+      "url": "games/minecraft"
     }
   ],
   "navigation": [
