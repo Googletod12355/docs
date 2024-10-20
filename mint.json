@@ -58,7 +58,7 @@
     },
     {
       "name": "Minecraft",
-      "url": "games/minecraft"
+      "url": "games/minecraft/"
     }
   ],
   "navigation": [
@@ -92,7 +92,15 @@
     {
       "group": "Discord Bots",
       "pages": [
-        "bots/"
+        "bots/home"
+      ]
+    },
+    {
+      "group": "Minecraft",
+      "pages": [
+        "games/minecraft/introduction",
+        "games/minecraft/joining",
+        "games/minecraft/server-icon"
       ]
     }
   ],
