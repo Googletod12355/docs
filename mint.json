@@ -59,7 +59,7 @@
     },
     {
       "name": "Discord Bots",
-      "url": "bots/"
+      "url": "bots/discord/"
     },
     {
       "name": "Minecraft",
@@ -101,7 +101,7 @@
     {
       "group": "Discord Bots",
       "pages": [
-        "bots/discord/home"
+        "bots/"
       ]
     }
   ],
