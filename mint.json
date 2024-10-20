@@ -70,9 +70,9 @@
       ]
     },
     {
-      "group": "Client Dashboard",
+      "group": "Free Dashboard",
       "pages": [
-        "dashboards/client/home"
+        "dashboards/free/home"
       ]
     },
     {
@@ -97,6 +97,12 @@
       "group": "Discord Bots",
       "pages": [
         "bots/discord/home"
+      ]
+    },
+    {
+      "group": "Billing Portal",
+      "pages": [
+        "dashboards/billing/home"
       ]
     }
   ],
