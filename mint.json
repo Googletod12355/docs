@@ -50,7 +50,7 @@
       "url": "server-panel/start"
     },
     {
-      "name": "Dashboard's (Panel & Client)",
+      "name": "Dashboard's (Panel, Free & Billing)",
       "url": "dashboards/"
     }
   ],
@@ -59,6 +59,10 @@
       "name": "Discord Server",
       "icon": "discord",
       "url": "https://discord.gg/ptcEyxDgZz"
+    },
+    {
+      "name": "Dashboard's (Panel, Free & Billing)",
+      "url": "dashboards/"
     }
   ],
   "navigation": [
