@@ -36,25 +36,21 @@
   "tabs": [],
   "anchors": [
     {
-      "name": "Discord Server",
+      "name": "Official Discord Server",
       "icon": "discord",
       "url": "https://discord.gg/ptcEyxDgZz"
     },
     {
-      "name": "Dashboard's (Panel, Free & Billing)",
+      "name": "Get Started",
+      "url": "home/"
+    },
+    {
+      "name": "Dashboard's",
       "url": "dashboards/"
     },
     {
-      "name": "Discord Bots",
+      "name": "Discord Bot's",
       "url": "bots/"
-    },
-    {
-      "name": "Minecraft",
-      "url": "games/"
-    },
-    {
-      "name": "Get Started",
-      "url": "home/"
     },
     {
       "name": "Minecraft",
@@ -90,7 +86,7 @@
       ]
     },
     {
-      "group": "Discord Bots",
+      "group": "Discord Bot's",
       "pages": [
         "bots/home"
       ]
