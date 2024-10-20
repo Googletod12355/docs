@@ -48,10 +48,6 @@
     {
       "name": "Server Panel",
       "url": "server-panel/start"
-    },
-    {
-      "name": "Dashboard's (Panel, Free & Billing)",
-      "url": "dashboards/"
     }
   ],
   "anchors": [
