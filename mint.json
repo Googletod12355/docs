@@ -59,7 +59,7 @@
     },
     {
       "name": "Discord Bots",
-      "url": "bots/discord/"
+      "url": "bots/"
     },
     {
       "name": "Minecraft",
@@ -67,8 +67,7 @@
     },
     {
       "name": "Get Started",
-      "url":
-        "home/"
+      "url": "home/"
     }
   ],
   "navigation": [
