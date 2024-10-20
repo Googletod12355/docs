@@ -15,9 +15,6 @@
       "to": "#12141C"
     }
   },
-  "primaryTab": {
-    "name": "Home"
-  },
   "topbarLinks": [
     {
       "name": "Client Dashboard",
@@ -67,6 +64,11 @@
     {
       "name": "Minecraft",
       "url": "games/minecraft"
+    },
+    {
+      "name": "Get Started",
+      "url":
+        "home/"
     }
   ],
   "navigation": [
