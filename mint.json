@@ -33,20 +33,7 @@
     "default": "dark",
     "isHidden": true
   },
-  "tabs": [
-    {
-      "name": "Minecraft",
-      "url": "games/minecraft"
-    },
-    {
-      "name": "Discord Bots",
-      "url": "bots/discord"
-    },
-    {
-      "name": "Server Panel",
-      "url": "server-panel/start"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
       "name": "Discord Server",
@@ -68,7 +55,11 @@
     {
       "name": "Get Started",
       "url": "home/"
-    }
+    },
+    {
+      "name": "Minecraft",
+      "url": "games/minecraft"
+    },
   ],
   "navigation": [
     {
