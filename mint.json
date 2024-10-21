@@ -58,6 +58,10 @@
     {
       "name": "Minecraft",
       "url": "games/minecraft/"
+    },
+    {
+      "name": "Garry's Mod",
+      "url": "games/gmod/"
     }
   ],
   "navigation": [
@@ -104,6 +108,12 @@
         "games/minecraft/changing-version",
         "games/minecraft/updating-jars",
         "games/minecraft/server-icon"
+      ]
+    },
+    {
+      "group": "Garry's Mod",
+      "pages": [
+        "games/gmod/home"
       ]
     }
   ],
