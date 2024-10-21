@@ -89,7 +89,8 @@
     {
       "group": "Discord Bot's",
       "pages": [
-        "bots/home"
+        "bots/home",
+        "bots/tips"
       ]
     },
     {

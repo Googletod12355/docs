@@ -1,0 +1,58 @@
+---
+title: 'Tips for Discord Bots'
+description: 'Securing your Discord bot is crucial to protect your data, bot token, and the servers it operates on. Here are some key security practices'
+---
+
+## 1. **Secure Your Bot Token**
+- **Never share your bot token** publicly. If someone gets your token, they can control your bot.
+- If you suspect the token is compromised, **regenerate it** immediately from the [Discord Developer Portal](https://discord.com/developers/applications).
+
+### Best Practices:
+- Store your token in **environment variables** or a `.env` file, not directly in code.
+- Use **config management tools** like `dotenv` in Node.js or `python-decouple` in Python to load sensitive data.
+
+## 2. **Host Your Bot Code in a GitHub Repository**
+Storing and managing your bot's code in a **private GitHub repository** has many advantages:
+
+### Benefits:
+- **Version control:** Track changes and revert to previous versions if something breaks.
+- **Collaboration:** Multiple developers can contribute and review the code securely.
+- **Backup and Recovery:** Your code is safe even if your local environment is lost or corrupted.
+- **Deployment Automation:** GitHub Actions can automate deployments to EclipseNode, reducing errors and saving time.
+
+**Pro Tip:** Keep your `.env` file (or other sensitive configuration files) out of your repository by adding them to the `.gitignore` file.
+
+
+## 3. **Use Proper Permissions**
+- Grant your bot **only the permissions it needs** using Discord’s role and permission management.
+- Avoid giving `Administrator` permissions unless absolutely necessary.
+
+
+## 4. **Keep Dependencies Updated**
+- Regularly update libraries and frameworks to patch vulnerabilities. Use:
+  - `npm audit` for Node.js bots
+  - `pip list --outdated` for Python bots
+
+- Consider using **Dependabot** in GitHub to receive alerts for outdated dependencies.
+
+
+## 5. **Monitor Logs and Errors**
+- Use logging to track suspicious behavior and detect issues early.
+- EclipseNode’s Pterodactyl panel allows you to view **real-time logs** to catch potential errors or unauthorized actions.
+
+
+## 6. **Rate Limiting and Anti-Spam Measures**
+- Implement **cooldowns** on commands to prevent spam.
+- Use Discord’s **rate limits** wisely to avoid your bot getting blocked by the API.
+
+
+## 7. **Validate User Input**
+- Sanitize and validate all user inputs to prevent command injection attacks.
+- Avoid directly executing user inputs in your bot logic.
+
+
+## 8. **Use OAuth2 for Authorization**
+- Use **OAuth2 scopes** carefully when allowing other users or servers to add your bot.
+- Use `guilds` and `applications.commands` scopes to limit access appropriately.
+
+By following these practices, you’ll ensure your bot operates securely and smoothly, reducing the risk of breaches or outages. GitHub hosting helps you maintain structured, secure, and collaborative code development.
