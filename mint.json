@@ -29,6 +29,9 @@
     "name": "Billing Portal",
     "url": "https://billing.eclipseno.de"
   },
+  "feedback": {
+      "thumbsRating": true
+  },
     "modeToggle": {
     "default": "dark",
     "isHidden": true
@@ -63,7 +66,7 @@
       "pages": [
         "home/home",
         "home/faq",
-        "home/how-we-work"
+        "home/overview"
       ]
     },
     {
