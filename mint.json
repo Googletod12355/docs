@@ -5,7 +5,7 @@
     "dark": "/media/logo.png",
     "light": "/media/logo.png"
   },
-  "favicon": "/media/favicon.png",
+  "favicon": "/media/logo.png",
   "colors": {
     "primary": "#12141C",
     "light": "#dd023c",
@@ -17,7 +17,7 @@
   },
   "topbarLinks": [
     {
-      "name": "Client Dashboard",
+      "name": "Free Dashboard",
       "url": "https://client.eclipseno.de/"
     },  
     {
@@ -26,8 +26,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Our Website",
-    "url": "https://eclipseno.de"
+    "name": "Billing Portal",
+    "url": "https://billing.eclipseno.de"
   },
     "modeToggle": {
     "default": "dark",
