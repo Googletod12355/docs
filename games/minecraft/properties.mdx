@@ -1,0 +1,77 @@
+---
+title: 'Server Properties'
+description: 'a complete guide to the `server.properties` configuration file'
+---
+
+Each input affects the server's behavior, performance, or gameplay. Below is an overview of the properties, descriptions, and recommendations for whether or not to modify them.
+
+
+### **Basic Server Settings**
+| **Property**           | **Description**                                                       | **Recommended Setting** |
+|------------------------|-----------------------------------------------------------------------|-------------------------|
+| `server-port`          | The port the server listens on (default: `25565`).                    | Keep default unless changing port. |
+| `server-ip`            | The IP address the server binds to. Leave empty for auto-detection.   | Leave empty unless hosting behind NAT. |
+| `motd`                 | Message displayed in the server list. Supports formatting codes.     | Customizable to give your server personality. |
+| `online-mode`          | Verifies player accounts through Mojang (`true` or `false`).         | **`true`** for public servers. Use `false` only for offline/LAN use. |
+| `max-players`          | Max concurrent players (default: `20`).                              | Adjust based on hardware and player expectations. |
+| `level-name`           | World folder name (default: `world`).                                | Change if using custom world folders. |
+| `level-seed`           | Custom world generation seed.                                        | Optional for unique maps. |
+
+
+### **World and Gameplay Settings**
+| **Property**           | **Description**                                                       | **Recommended Setting** |
+|------------------------|-----------------------------------------------------------------------|-------------------------|
+| `gamemode`             | Default gamemode for new players: `survival`, `creative`, `adventure`, `spectator`. | **Survival** for most gameplay. |
+| `difficulty`           | Difficulty level: `peaceful`, `easy`, `normal`, `hard`.              | **Normal** for balanced play. |
+| `pvp`                  | Enables player vs. player combat (`true` or `false`).                | **True** unless PvE only. |
+| `spawn-animals`        | Allow animal spawning (`true` or `false`).                           | **True** unless performance issues. |
+| `spawn-monsters`       | Allow monster spawning (`true` or `false`).                          | **True** unless peaceful mode. |
+| `spawn-npcs`           | Enables NPCs like villagers (`true` or `false`).                     | **True** for most servers. |
+| `hardcore`             | If enabled, players get only one life (`true` or `false`).           | **False** unless hardcore gameplay. |
+| `generate-structures`  | Enable village and dungeon generation (`true` or `false`).           | **True** for richer worlds. |
+| `max-world-size`       | Limits the size of generated chunks (default: 29999984).             | Optional; limit for performance. |
+| `view-distance`        | Sets chunk rendering distance for players (default: `10`).           | **8-12** for a balance of visuals and performance. |
+| `simulation-distance`  | How far entities are updated around players (default: `10`).         | **6-10** to optimize. |
+
+
+### **Player Management and Permissions**
+| **Property**           | **Description**                                                       | **Recommended Setting** |
+|------------------------|-----------------------------------------------------------------------|-------------------------|
+| `whitelist`            | Use whitelist to control who can join (`true` or `false`).            | Optional for private servers. |
+| `enforce-whitelist`    | Prevents non-whitelisted players from joining (`true` or `false`).    | **False** unless strict control. |
+| `op-permission-level`  | Control operator permissions: `1-4`.                                  | **2-3** for general admins. |
+| `max-build-height`     | Limits how high players can build (default: `256`).                   | Increase for creative builds. |
+| `spawn-protection`     | Radius around spawn point where non-ops cannot modify blocks.         | **16** for protection; **0** to disable. |
+| `allow-flight`         | Allow players to fly (`true` or `false`).                             | **True** for creative; **False** otherwise. |
+
+
+### **Performance Settings**
+| **Property**           | **Description**                                                       | **Recommended Setting** |
+|------------------------|-----------------------------------------------------------------------|-------------------------|
+| `network-compression-threshold` | Compress packets (default: `256`).                         | **256** or lower for slower networks. |
+| `max-tick-time`        | Max time (ms) for a tick before the server stops (default: `60000`). | **60000** unless debugging. |
+| `max-threads`          | Threads for parallel processing (if supported).                      | Leave default unless optimizing. |
+| `enable-jmx-monitoring`| Enables Java monitoring (`true` or `false`).                         | **False** unless required for diagnostics. |
+| `use-native-transport` | Optimizes performance on certain OS (`true` or `false`).             | **True** for most servers. |
+| `rate-limit`           | Limits packets per second per player (default: `0` = unlimited).     | Optional to prevent abuse. |
+| `enable-command-block` | Enables command blocks (`true` or `false`).                          | **True** for servers with custom mechanics. |
+
+
+### **Advanced and Experimental Settings**
+| **Property**           | **Description**                                                       | **Recommended Setting** |
+|------------------------|-----------------------------------------------------------------------|-------------------------|
+| `sync-chunk-writes`    | Controls chunk save behavior (`true` or `false`).                     | **True** for safety, **False** for speed. |
+| `allow-nether`         | Enable access to the Nether (`true` or `false`).                      | **True** for most servers. |
+| `enable-status`        | Show server status in the server list (`true` or `false`).            | **True** to attract players. |
+| `resource-pack`        | URL for server resource pack.                                         | Optional for custom textures. |
+| `resource-pack-prompt` | Ask players before downloading resource packs (`true` or `false`).    | **True** for user control. |
+| `resource-pack-sha1`   | SHA-1 hash of the resource pack to ensure integrity.                  | Optional but recommended. |
+
+
+### **Conclusion**
+Most properties depend on the type of server you’re running (survival, creative, PvP, etc.) and the hardware available. It’s generally recommended to:
+1. **Adjust performance settings** based on your server’s hardware.
+2. **Enable features** that match your intended gameplay (e.g., PvP, animals, structures).
+3. **Use a whitelist or rate-limiting** if you expect a large number of players to prevent abuse.
+
+If you’re running a small or performance-limited server, lowering the `view-distance` and `simulation-distance` will help, while settings like `online-mode` should be left enabled for security.

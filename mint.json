@@ -107,7 +107,8 @@
         "games/minecraft/joining",
         "games/minecraft/changing-version",
         "games/minecraft/updating-jars",
-        "games/minecraft/server-icon"
+        "games/minecraft/server-icon",
+        "games/minecraft/properties"
       ]
     },
     {
