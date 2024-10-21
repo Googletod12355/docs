@@ -104,8 +104,8 @@
       "group": "Minecraft",
       "pages": [
         "games/minecraft/introduction",
-        "games/minecraft/joining",
-        "games/minecraft/changing-version",
+        "games/minecraft/join",
+        "games/minecraft/changing-versions",
         "games/minecraft/updating-jars",
         "games/minecraft/server-icon",
         "games/minecraft/properties"
