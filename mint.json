@@ -117,7 +117,9 @@
         "games/gmod/home",
         "games/gmod/gslt",
         "games/gmod/flag",
-        "games/gmod/name"
+        "games/gmod/name",
+        "games/gmod/gamemode",
+        "games/gmod/darkrp"
       ]
     }
   ],
