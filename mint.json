@@ -116,7 +116,8 @@
       "pages": [
         "games/gmod/home",
         "games/gmod/gslt",
-        "games/gmod/flag"
+        "games/gmod/flag",
+        "games/gmod/name"
       ]
     }
   ],
