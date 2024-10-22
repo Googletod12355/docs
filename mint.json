@@ -114,7 +114,9 @@
     {
       "group": "Garry's Mod",
       "pages": [
-        "games/gmod/home"
+        "games/gmod/home",
+        "games/gmod/gslt",
+        "games/gmod/flag"
       ]
     }
   ],
