@@ -119,7 +119,8 @@
         "games/gmod/flag",
         "games/gmod/name",
         "games/gmod/gamemode",
-        "games/gmod/darkrp"
+        "games/gmod/darkrp",
+        "games/gmod/superadmin"
       ]
     }
   ],
