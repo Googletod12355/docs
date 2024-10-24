@@ -120,7 +120,8 @@
         "games/gmod/name",
         "games/gmod/gamemode",
         "games/gmod/darkrp",
-        "games/gmod/superadmin"
+        "games/gmod/superadmin",
+        "games/gmod/cstrike"
       ]
     }
   ],
