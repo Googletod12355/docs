@@ -88,12 +88,6 @@
       ]
     },
     {
-      "group": "Free Dashboard",
-      "pages": [
-        "dashboards/free/home"
-      ]
-    },
-    {
       "group": "Discord Bot's",
       "pages": [
         "bots/home",
@@ -126,15 +120,14 @@
     {
       "group": "Free Dashboard",
       "pages": [
-        "dashboards/free/test",
-        "dashboards/free/test2",
+        "dashboards/free/home",
         {
           "group": "Customer Area",
           "icon": "book-open",
           "iconType": "solid",
           "pages": [
-            "dashboards/free/clientarea/test",
-            "dashboards/free/clientarea/test2"
+            "dashboards/free/clientarea/dashboard",
+            "dashboards/free/clientarea/invoices"
           ]
         }
       ]
