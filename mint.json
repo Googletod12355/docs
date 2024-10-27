@@ -127,7 +127,9 @@
           "iconType": "solid",
           "pages": [
             "dashboards/free/clientarea/dashboard",
-            "dashboards/free/clientarea/invoices"
+            "dashboards/free/clientarea/invoices",
+            "dashboards/free/clientarea/profile",
+            "dashboards/free/clientarea/tickets"
           ]
         }
       ]
