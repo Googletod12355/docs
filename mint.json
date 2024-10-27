@@ -122,6 +122,22 @@
         "games/gmod/darkrp",
         "games/gmod/superadmin"
       ]
+    },
+    {
+      "group": "Free Dashboard",
+      "pages": [
+        "dashboards/free/test",
+        "dashboards/free/test2",
+        {
+          "group": "Customer Area",
+          "icon": "book-open",
+          "iconType": "solid",
+          "pages": [
+            "dashboards/free/clientarea/test",
+            "dashboards/free/clientarea/test2"
+          ]
+        }
+      ]
     }
   ],
   "footerSocials": {
