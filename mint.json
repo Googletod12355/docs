@@ -48,8 +48,8 @@
       "url": "home/"
     },
     {
-      "name": "Dashboard's",
-      "url": "dashboards/"
+      "name": "Portal's",
+      "url": "portals/"
     },
     {
       "name": "Discord Bot's",
@@ -76,15 +76,9 @@
     {
       "group": "Server Panel",
       "pages": [
-        "dashboards/server/overview",
-        "dashboards/server/importing-files",
-        "dashboards/server/sub-users"
-      ]
-    },
-    {
-      "group": "Billing Portal",
-      "pages": [
-        "dashboards/billing/home"
+        "portals/server/overview",
+        "portals/server/importing-files",
+        "portals/server/sub-users"
       ]
     },
     {
@@ -118,18 +112,18 @@
       ]
     },
     {
-      "group": "Free Dashboard",
+      "group": "Billing Portal",
       "pages": [
-        "dashboards/free/home",
+        "portals/billing/home",
         {
           "group": "Customer Area",
           "icon": "book-open",
           "iconType": "solid",
           "pages": [
-            "dashboards/free/clientarea/dashboard",
-            "dashboards/free/clientarea/invoices",
-            "dashboards/free/clientarea/profile",
-            "dashboards/free/clientarea/tickets"
+            "portals/billing/clientarea/dashboard",
+            "portals/billing/clientarea/invoices",
+            "portals/billing/clientarea/profile",
+            "portals/billing/clientarea/tickets"
           ]
         }
       ]
