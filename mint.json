@@ -17,17 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Free Dashboard",
-      "url": "https://client.eclipseno.de/"
-    },  
-    {
-      "name": "Server Panel",
+      "name": "Server Portal",
       "url": "https://panel.eclipseno.de/"
     }
   ],
   "topbarCtaButton": {
-    "name": "Discord Server",
-    "url": "https://discord.gg/ptcEyxDgZz"
+    "name": "Billing Portal",
+    "url": "https://billing.eclipseno.de"
   },
   "feedback": {
       "thumbsRating": true
@@ -39,7 +35,7 @@
   "tabs": [],
   "anchors": [
     {
-      "name": "Official Discord Server",
+      "name": "Discord Server",
       "icon": "discord",
       "url": "https://discord.gg/ptcEyxDgZz"
     },
@@ -74,7 +70,7 @@
       ]
     },
     {
-      "group": "Server Panel",
+      "group": "Server Portal",
       "pages": [
         "portals/server/overview",
         "portals/server/importing-files",
