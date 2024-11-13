@@ -78,7 +78,8 @@
       "pages": [
         "portals/server/overview",
         "portals/server/importing-files",
-        "portals/server/sub-users"
+        "portals/server/sub-users",
+        "portals/server/server-id"
       ]
     },
     {
