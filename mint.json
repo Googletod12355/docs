@@ -118,7 +118,6 @@
           "iconType": "solid",
           "pages": [
             "portals/billing/clientarea/dashboard",
-            "portals/billing/clientarea/invoices",
             "portals/billing/clientarea/manage",
             "portals/billing/clientarea/tickets",
             "portals/billing/clientarea/managers"
@@ -129,6 +128,6 @@
   ],
   "footerSocials": {
     "discord": "https://discord.gg/eclipsenode",
-    "youtube": "https://youtube.com/EclipseNode"
+    "youtube": "https://www.youtube.com/@EclipseNode"
   }
 }
