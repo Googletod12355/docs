@@ -107,23 +107,6 @@
         "games/gmod/darkrp",
         "games/gmod/superadmin"
       ]
-    },
-    {
-      "group": "Billing Portal",
-      "pages": [
-        "portals/billing/home",
-        {
-          "group": "Customer Area",
-          "icon": "book-open",
-          "iconType": "solid",
-          "pages": [
-            "portals/billing/clientarea/dashboard",
-            "portals/billing/clientarea/manage",
-            "portals/billing/clientarea/tickets",
-            "portals/billing/clientarea/managers"
-          ]
-        }
-      ]
     }
   ],
   "footerSocials": {
